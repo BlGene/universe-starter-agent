@@ -25,13 +25,13 @@ source activate universe-starter-agent
 
 brew install tmux htop      # On Linux use sudo apt-get install -y tmux htop
 
+conda install -y -c https://conda.binstar.org/menpo opencv3
+conda install -y numpy
+conda install -y scipy
 pip install gym[atari]
 pip install universe
 pip install six
 pip install tensorflow
-conda install -y -c https://conda.binstar.org/menpo opencv3
-conda install -y numpy
-conda install -y scipy
 ```
 
 
